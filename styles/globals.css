@@ -31,3 +31,39 @@ body {
     text-wrap: balance;
   }
 }
+
+.text-outline {
+  text-shadow: 2px 2px 0 #ED155D;
+}
+
+.slider{
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-track {
+
+  animation: scroll 40s linear infinite;
+  width: calc(200px * 10);
+  -webkit-animation:  scroll 40s linear infinite;;
+}
+.slider .slide {
+  width: 400px!important;
+}
+
+.slider .slide img {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform:translateX(0);
+  } 
+  100% {
+    -webkit-transform: translateX(calc(-200px * 4));
+    transform:translateX(calc(-200px * 4));
+  }
+}
