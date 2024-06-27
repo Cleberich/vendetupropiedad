@@ -18,18 +18,18 @@ export default function Home() {
   return (
     <>
       <div className="md:bg-[url('/img/desktop.png')] bg-[url('/img/mobile.png')] bg-cover bg-no-repeat h-screen w-full ">
-        <div className="mx-12 md:mx-44 pt-20 md:pt-48">
-          <h1 className="text-white md:text-left text-center text-[20px] md:text-[38.3px] font-bold text-outline">
+        <div className="mx-2 md:mx-44 pt-32 md:pt-48">
+          <h1 className="text-white md:text-left text-center text-[16px] md:text-[38.3px] font-bold text-outline">
             ¿Cansado de no encontrar compradores
           </h1>
           <h2
-            className={`text-white text-[50px] md:text-[86.3px] md:-mt-6  md:text-left text-center ${anton.className}`}
+            className={`text-white text-[40px] md:text-[86.3px] md:-mt-6  md:text-left text-center ${anton.className}`}
           >
             {" "}
             PARA TU PROPIEDAD?
           </h2>
           <h3
-            className={`text-white ${poppins.className} md:-mt-4 text-sm md:text-2xl md:text-left text-center`}
+            className={`text-white ${poppins.className} md:-mt-4 text-xs md:text-2xl md:text-left text-center`}
           >
             Es hora de utilizar Marketing Inmobiliario y conseguir <br></br>
             vender rápido y al mejor precio.
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex md:justify-start justify-center">
             <a
               href="https://wa.link/kmoseo"
-              className="bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64"
+              className="bg-[#ED155D] text-white font-bold py-3 text-center px-6 rounded-md mt-[420px] md:mt-4 md:w-auto w-64"
             >
               ¡Contáctame ahora!
             </a>
@@ -49,7 +49,7 @@ export default function Home() {
         <img src="/img/mobile2.png" className="w-full flex md:hidden" />
       </div>
       <div className="bg-[url('/img/mobile3.png')] md:bg-[url('/img/banner3.png')] bg-cover bg-no-repeat bg-center h-auto pb-24 w-full ">
-        <div className="flex justify-center gap-5 flex-wrap px-24 lg:px-52 xl:px-64 2xl:pt-96 xl:pt-96 lg:pt-52 pt-32 ">
+        <div className="flex justify-center gap-5 flex-wrap px-24 px-2 lg:px-52 xl:px-64 2xl:pt-96 xl:pt-96 lg:pt-52 pt-32 ">
           <button className="bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Analisis de mercado
           </button>
