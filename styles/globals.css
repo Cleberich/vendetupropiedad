@@ -17,13 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ background-color: #000000;
 }
 
 @layer utilities {
@@ -44,7 +38,7 @@ body {
 }
 
 .slider-track {
-
+display: flex;
   animation: scroll 40s linear infinite;
   width: calc(200px * 10);
   -webkit-animation:  scroll 40s linear infinite;;
@@ -67,6 +61,6 @@ body {
     transform:translateX(calc(-200px * 4));
   }
 }
-.foto{
+.foto {
   border-radius: 50%!important;
 }

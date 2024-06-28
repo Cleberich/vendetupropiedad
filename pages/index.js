@@ -20,7 +20,7 @@ export default function Home() {
       <div className="md:bg-[url('/img/desktop.png')] bg-[url('/img/mobile.png')] bg-cover bg-center bg-no-repeat h-screen w-full ">
         <div className="mx-2 md:mx-44 pt-12 md:pt-48">
           <h1 className="text-white md:text-left text-center text-[16px] md:text-[38.3px] font-bold text-outline">
-            ¿Cansado de no encontrar compradores
+            ¿Cansado de no encontrar comprador
           </h1>
           <h2
             className={`text-white text-[40px] md:text-[86.3px] md:-mt-6  md:text-left text-center ${anton.className}`}
@@ -84,8 +84,165 @@ export default function Home() {
         </div>
       </div>
       <div className="slider pb-44 md:pt-4 pt-12">
-        <div className="slider-track flex flex-row">
-          <Slide />
+        <div className="slider-track ">
+          <div className="slide mx-2 ">
+            <article>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-[20px]">
+                  {" "}
+                  <img
+                    className="w-[10px] h-[20px] foto me-4 rounded-full"
+                    src="/img/leo.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div className="font-medium text-white">
+                  <p>Leo Fernandez</p>
+                </div>
+              </div>
+
+              <h3 className="ms-2 text-sm font-semibold italic text-white mt-2 ">
+                "Te recomiendo a cada persona que quiera vender"
+              </h3>
+              <footer className="mb-5 text-sm text-gray-400"></footer>
+              <p className="mb-2 text-gray-400 -mt-4 text-sm">
+                Estaba cansado de que me llamaran las inmobiliarias entonces
+                decidi dejar mi propiedad en manos de Cleber y logro vender en
+                38 días
+              </p>
+            </article>
+          </div>
+          <div className="slide mx-2 ">
+            <article>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-5 md:w-10 foto">
+                  {" "}
+                  <img
+                    className="w-[10px] h-auto foto me-4 rounded-full"
+                    src="/img/miriam.png"
+                    alt=""
+                  />
+                </div>
+                <div className="font-medium text-white">
+                  <p>Miriam</p>
+                </div>
+              </div>
+
+              <h3 className="ms-2 text-sm font-semibold italic text-white mt-2 ">
+                "Muy profesional"
+              </h3>
+              <footer className="mb-5 text-sm text-gray-400"></footer>
+              <p className="mb-2 text-gray-400 -mt-4 text-sm">
+                Vino con un equipo de profesionales a sacar fotos hacer videos
+                trajeron un dron, la atención muy buena muy profesional
+              </p>
+            </article>
+          </div>{" "}
+          <div className="slide mx-2 ">
+            <article>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-5 md:w-10 foto">
+                  {" "}
+                  <img
+                    className="w-[10px] h-auto foto me-4 rounded-full"
+                    src="/img/yuca.png"
+                    alt=""
+                  />
+                </div>
+                <div className="font-medium text-white">
+                  <p>Daniel Castro</p>
+                </div>
+              </div>
+
+              <h3 className="ms-2 text-sm font-semibold italic text-white mt-2 ">
+                "Muy contento con el servicio"
+              </h3>
+              <footer className="mb-5 text-sm text-gray-400"></footer>
+              <p className="mb-2 text-gray-400 -mt-4 text-sm">
+                Muy profesional en todo momento estuvo para responder mis
+                consultas
+              </p>
+            </article>
+          </div>
+          <div className="slide mx-2 ">
+            <article>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-5 md:w-10 foto">
+                  {" "}
+                  <img
+                    className="w-[10px] h-auto foto me-4 rounded-full"
+                    src="/img/leo.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div className="font-medium text-white">
+                  <p>Leo Fernandez</p>
+                </div>
+              </div>
+
+              <h3 className="ms-2 text-sm font-semibold italic text-white mt-2 ">
+                "Te recomiendo a cada persona que quiera vender"
+              </h3>
+              <footer className="mb-5 text-sm text-gray-400"></footer>
+              <p className="mb-2 text-gray-400 -mt-4 text-sm">
+                Estaba cansado de que me llamaran las inmobiliarias entonces
+                decidi dejar mi propiedad en manos de Cleber y logro vender en
+                38 días
+              </p>
+            </article>
+          </div>
+          <div className="slide mx-2 ">
+            <article>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-5 md:w-10 foto">
+                  {" "}
+                  <img
+                    className="w-[10px] h-auto foto me-4 rounded-full"
+                    src="/img/miriam.png"
+                    alt=""
+                  />
+                </div>
+                <div className="font-medium text-white">
+                  <p>Miriam</p>
+                </div>
+              </div>
+
+              <h3 className="ms-2 text-sm font-semibold italic text-white mt-2 ">
+                "Muy profesional"
+              </h3>
+              <footer className="mb-5 text-sm text-gray-400"></footer>
+              <p className="mb-2 text-gray-400 -mt-4 text-sm">
+                Vino con un equipo de profesionales a sacar fotos hacer videos
+                trajeron un dron, la atención muy buena muy profesional
+              </p>
+            </article>
+          </div>{" "}
+          <div className="slide mx-2 ">
+            <article>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-5 md:w-10 foto">
+                  {" "}
+                  <img
+                    className="w-[10px] h-auto foto me-4 rounded-full"
+                    src="/img/yuca.png"
+                    alt=""
+                  />
+                </div>
+                <div className="font-medium text-white">
+                  <p>Daniel Castro</p>
+                </div>
+              </div>
+
+              <h3 className="ms-2 text-sm font-semibold italic text-white mt-2 ">
+                "Muy contento con el servicio"
+              </h3>
+              <footer className="mb-5 text-sm text-gray-400"></footer>
+              <p className="mb-2 text-gray-400 -mt-4 text-sm">
+                Muy profesional en todo momento estuvo para responder mis
+                consultas
+              </p>
+            </article>
+          </div>
         </div>
       </div>
       <Footer />
