@@ -17,8 +17,8 @@ const poppins = Poppins({
 export default function Home() {
   return (
     <>
-      <div className="md:bg-[url('/img/desktop.png')] bg-[url('/img/mobile.png')] bg-cover bg-no-repeat h-screen w-full ">
-        <div className="mx-2 md:mx-44 pt-32 md:pt-48">
+      <div className="md:bg-[url('/img/desktop.png')] bg-[url('/img/mobile.png')] bg-cover bg-center bg-no-repeat h-screen w-full ">
+        <div className="mx-2 md:mx-44 pt-12 md:pt-48">
           <h1 className="text-white md:text-left text-center text-[16px] md:text-[38.3px] font-bold text-outline">
             ¿Cansado de no encontrar compradores
           </h1>
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex md:justify-start justify-center">
             <a
               href="https://wa.link/kmoseo"
-              className="bg-[#ED155D] text-white font-bold py-3 text-center px-6 rounded-md mt-[420px] md:mt-4 md:w-auto w-64"
+              className="bg-[#ED155D] text-white font-bold py-3 text-center px-6 rounded-md mt-2 md:mt-4 md:w-auto w-64"
             >
               ¡Contáctame ahora!
             </a>
