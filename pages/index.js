@@ -18,7 +18,14 @@ export default function Home() {
   return (
     <>
       <div className="md:bg-[url('/img/desktop.png')] bg-[url('/img/mobile.png')] bg-cover bg-center bg-no-repeat h-screen w-full ">
-        <div className="mx-2 md:mx-44 pt-12 md:pt-48">
+        <div className="flex justify-center  pt-6">
+          <img
+            src="/img/logo.png"
+            alt="inmobiliaria imperium"
+            className="w-14 md:w-20"
+          />
+        </div>
+        <div className="mx-2 md:mx-44 pt-8 md:pt-48">
           <h1 className="text-white md:text-left text-center text-[16px] md:text-[38.3px] font-bold text-outline">
             ¿Cansado de no encontrar comprador
           </h1>
@@ -48,7 +55,7 @@ export default function Home() {
         <img src="/img/banner2.png" className="w-full md:flex hidden" />
         <img src="/img/mobile2.png" className="w-full flex md:hidden" />
       </div>
-      <div className="bg-[url('/img/mobile3.png')] md:bg-[url('/img/banner3.png')] bg-cover bg-no-repeat bg-center h-auto pb-24 w-full ">
+      <div className="bg-[url('/img/mobile3.png')] md:bg-[url('/img/banner3.png')] bg-cover bg-no-repeat bg-center md:bg-top h-auto md:h-screen pb-24 w-full ">
         <div className="flex justify-center gap-5 flex-wrap  px-2 lg:px-52 xl:px-64 2xl:pt-96 xl:pt-96 lg:pt-52 pt-32 ">
           <button className="cursor-none bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Analisis de mercado
@@ -83,7 +90,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="slider pb-44 md:pt-4 pt-12">
+      <div className="slider pb-32 md:pt-4 pt-12">
         <div className="slider-track ">
           <div className="slide mx-2 ">
             <article>
