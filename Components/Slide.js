@@ -9,7 +9,7 @@ const Slide = () => {
             <div className="w-[20px]">
               {" "}
               <img
-                className="w-[20px] h-[20px] foto me-4 rounded-full"
+                className="w-[10px] h-[20px] foto me-4 rounded-full"
                 src="/img/leo.jpeg"
                 alt=""
               />
@@ -35,7 +35,7 @@ const Slide = () => {
             <div className="w-5 md:w-10 foto">
               {" "}
               <img
-                className="w-[20px] h-auto foto me-4 rounded-full"
+                className="w-[10px] h-auto foto me-4 rounded-full"
                 src="/img/miriam.png"
                 alt=""
               />
@@ -61,7 +61,7 @@ const Slide = () => {
             <div className="w-5 md:w-10 foto">
               {" "}
               <img
-                className="w-[20px] h-auto foto me-4 rounded-full"
+                className="w-[10px] h-auto foto me-4 rounded-full"
                 src="/img/yuca.png"
                 alt=""
               />
@@ -86,7 +86,7 @@ const Slide = () => {
             <div className="w-5 md:w-10 foto">
               {" "}
               <img
-                className="w-[20px] h-auto foto me-4 rounded-full"
+                className="w-[10px] h-auto foto me-4 rounded-full"
                 src="/img/leo.jpeg"
                 alt=""
               />
@@ -112,7 +112,7 @@ const Slide = () => {
             <div className="w-5 md:w-10 foto">
               {" "}
               <img
-                className="w-[20px] h-auto foto me-4 rounded-full"
+                className="w-[10px] h-auto foto me-4 rounded-full"
                 src="/img/miriam.png"
                 alt=""
               />
@@ -138,7 +138,7 @@ const Slide = () => {
             <div className="w-5 md:w-10 foto">
               {" "}
               <img
-                className="w-[20px] h-auto foto me-4 rounded-full"
+                className="w-[10px] h-auto foto me-4 rounded-full"
                 src="/img/yuca.png"
                 alt=""
               />
