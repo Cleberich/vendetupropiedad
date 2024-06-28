@@ -6,10 +6,10 @@ const Slide = () => {
       <div className="slide mx-2 ">
         <article>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10">
+            <div className="w-[20px]">
               {" "}
               <img
-                className="w-[20px] h-auto me-4 rounded-full"
+                className="w-[20px] h-[20px] me-4 rounded-full"
                 src="/img/leo.jpeg"
                 alt=""
               />

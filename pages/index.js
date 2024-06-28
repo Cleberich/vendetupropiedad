@@ -49,36 +49,36 @@ export default function Home() {
         <img src="/img/mobile2.png" className="w-full flex md:hidden" />
       </div>
       <div className="bg-[url('/img/mobile3.png')] md:bg-[url('/img/banner3.png')] bg-cover bg-no-repeat bg-center h-auto pb-24 w-full ">
-        <div className="flex justify-center gap-5 flex-wrap px-24 px-2 lg:px-52 xl:px-64 2xl:pt-96 xl:pt-96 lg:pt-52 pt-32 ">
-          <button className="bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+        <div className="flex justify-center gap-5 flex-wrap  px-2 lg:px-52 xl:px-64 2xl:pt-96 xl:pt-96 lg:pt-52 pt-32 ">
+          <button className="cursor-none bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Analisis de mercado
           </button>
 
-          <button className="bg-[#FC4E0A] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#FC4E0A] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Fotografía Profesional
           </button>
-          <button className="bg-[#fff] text-[#D30801] font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#fff] text-[#D30801] font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Videos para redes sociales
           </button>
-          <button className="bg-[#ffffff] text-[#D30801] font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#ffffff] text-[#D30801] font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Asesoramiento Personalizado
           </button>
-          <button className="bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Tour 360º
           </button>
-          <button className="bg-[#FC4E0A] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#FC4E0A] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Estrategias de marketing
           </button>
-          <button className="bg-[#D30801] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#D30801] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Destacados en portales
           </button>
-          <button className="bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Publicidad en Google
           </button>
-          <button className="bg-[#fff] text-[#D30801] font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#fff] text-[#D30801] font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Reportes semanales
           </button>
-          <button className="bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
+          <button className="cursor-none bg-[#ED155D] text-white font-bold py-3 px-6 rounded-md mt-4 md:w-auto w-64">
             Publicidad en Meta
           </button>
         </div>
