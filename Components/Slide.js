@@ -32,7 +32,7 @@ const Slide = () => {
       <div className="slide mx-2 ">
         <article>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 foto">
+            <div className="w-5 md:w-10 foto">
               {" "}
               <img
                 className="w-[20px] h-auto foto me-4 rounded-full"
@@ -58,7 +58,7 @@ const Slide = () => {
       <div className="slide mx-2 ">
         <article>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 foto">
+            <div className="w-5 md:w-10 foto">
               {" "}
               <img
                 className="w-[20px] h-auto foto me-4 rounded-full"
@@ -83,7 +83,7 @@ const Slide = () => {
       <div className="slide mx-2 ">
         <article>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 foto">
+            <div className="w-5 md:w-10 foto">
               {" "}
               <img
                 className="w-[20px] h-auto foto me-4 rounded-full"
@@ -109,7 +109,7 @@ const Slide = () => {
       <div className="slide mx-2 ">
         <article>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 foto">
+            <div className="w-5 md:w-10 foto">
               {" "}
               <img
                 className="w-[20px] h-auto foto me-4 rounded-full"
@@ -135,7 +135,7 @@ const Slide = () => {
       <div className="slide mx-2 ">
         <article>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 foto">
+            <div className="w-5 md:w-10 foto">
               {" "}
               <img
                 className="w-[20px] h-auto foto me-4 rounded-full"
